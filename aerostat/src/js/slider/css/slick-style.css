@@ -1,0 +1,44 @@
+
+.main {
+	// width:1170px;
+	// margin: 100px 0 0 33px;
+}
+
+/* Стили для сладера */
+
+.sl__img {
+	border: 5px solid #141b26;
+}
+
+.sl__slide {
+	margin: 19px;
+	background: #192530;
+
+}
+
+.sl__text {
+	color: #fff;
+	text-align: center;
+	border: 10px solid #192530;
+	background: #192530;
+	// width: 190px;
+}
+
+
+.sl__zag, .sl__desc {
+}
+
+/*Адаптивность картинок и видео*/
+img{
+  // max-width: 100%;
+  // height: 50px;
+  // background-size: contain;
+  // height: auto;
+}
+
+
+/*Адаптивность*/
+
+@media (min-width: 1200px) {
+img { width:auto; }
+.slick-slide img { width:100%; }

@@ -1,0 +1,136 @@
+.main-middle-block .services-block {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.main-middle-block .services-block h2 {
+  color: #031c43;
+}
+.main-middle-block .services-block hr {
+  margin: 20px 0px;
+}
+.main-middle-block .services-block .services1 ul {
+  width: 100%;
+  margin: 0 auto;
+}
+.main-middle-block .services-block .services1 ul li {
+  margin: 0 auto;
+  margin: 0px 15px;
+}
+.main-middle-block .services-block .services1 ul li .services {
+  margin-top: 30px;
+}
+.main-middle-block .services-block .services1 ul li .services:hover {
+  opacity: .9;
+}
+.main-middle-block .services-block .services1 ul li .services img {
+  width: 250px;
+  height: 300px;
+  position: relative;
+  top: -20px;
+  left: 20px;
+}
+.main-middle-block .services-block .services1 ul li .services .services-order {
+  position: relative;
+  top: -220px;
+  height: 200px;
+  width: 250px;
+  margin: 0 auto;
+  left: -5px;
+}
+.main-middle-block .services-block .services1 ul li .services .services-order:hover a {
+  display: inline-block;
+  color: #fff;
+}
+.main-middle-block .services-block .services1 ul li .services .services-order a {
+  display: none;
+  text-align: center;
+  width: 150px;
+  margin-left: 45px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #92c800;
+}
+.main-middle-block .services-block .services1 ul li .services .services-order a:hover {
+  transform: scale(1.1);
+}
+.main-middle-block .services-block .services1 ul li .services .services-order a:nth-child(2) {
+  background-color: #0088e7;
+}
+.main-middle-block .services-block .services1 ul li .services h3 {
+  position: relative;
+  top: -200px;
+  left: 0px;
+  color: #031c43;
+  text-align: center;
+}
+@media screen and (min-width: 1158px) and (max-width: 1328px) {
+  .main-middle-block .services-block .services1 {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .main-middle-block .services-block .services1 ul {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main-middle-block .services-block .services1 ul li {
+    margin: 0 auto;
+    margin: 0px 65px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1157px) {
+  .main-middle-block .services-block .services1 {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .main-middle-block .services-block .services1 ul {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main-middle-block .services-block .services1 ul li {
+    margin: 0 auto;
+    margin: 0px 35px;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 886px) {
+  .main-middle-block .services-block .services1 {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .main-middle-block .services-block .services1 ul {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .main-middle-block .services-block .services1 ul li {
+    margin: 0 auto;
+    margin: 0px 5px;
+  }
+}
+@media screen and (min-width: 461px) and (max-width: 599px) {
+  .main-middle-block .services-block .services1 {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .main-middle-block .services-block .services1 ul {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .main-middle-block .services-block .services1 ul li {
+    margin: 0 auto;
+    margin: 0px 0px;
+  }
+}
+@media screen and (min-width: 369px) and (max-width: 460px) {
+  .main-middle-block .services-block .services1 {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .main-middle-block .services-block .services1 ul {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .main-middle-block .services-block .services1 ul li {
+    margin: 0 auto;
+    margin: 0px 0px;
+  }
+}

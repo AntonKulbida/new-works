@@ -1,0 +1,60 @@
+#page {
+    // width: 585px;
+    margin: 0px 0px 20px 0px;
+}
+
+#thumbs {
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+#thumbs img,
+#largeImage {
+    border: 1px solid gray;
+    background-color: white;
+    cursor: pointer;
+    height: 150px;
+
+}
+
+#thumbs img {
+    float: left;
+    margin: 0px;
+    width: 150px;
+    // margin-left: 12px;
+    margin-right: 12px;
+}
+
+#panel {
+    position: relative;
+}
+#panel img{
+    width: 50%;
+}
+
+#largeImage{
+    width: 100% !important;
+    height: auto;
+}
+
+@media screen and (min-width: 430px) and (max-width: 761px) {
+#thumbs img {
+    float: none;
+    margin: 0px;
+    width: 100px;
+    margin-left: 2px;
+    height: auto;
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 429px) {
+#thumbs img {
+    float: none;
+    margin: 0px;
+    width: 70px;
+    margin-left: 2px;
+    height: auto;
+}
+
+}

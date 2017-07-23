@@ -1,0 +1,88 @@
+#myList li{ display:none;
+    float: left;
+}
+#loadMore{
+     text-align: center;
+     margin: 0 auto;
+     width: 17%;
+
+}
+#loadMore p{
+    color:#fff;
+    padding: 10px;
+    cursor:pointer;
+    background-color: #031c43;
+    width: 150px;
+    text-align: center;
+}
+#loadMore:hover {
+    color:black;
+}
+#showLess {
+    color:red;
+    cursor:pointer;
+}
+#showLess:hover {
+    color:black;
+}
+
+@media screen and (min-width: 636px) and (max-width: 769px) {
+    #loadMore{
+     text-align: center;
+     margin: 0 auto;
+     width: 30%;
+
+}
+
+}
+
+@media screen and (min-width: 542px) and (max-width: 635px) {
+    #loadMore{
+     text-align: center;
+     margin: 0 auto;
+     width: 35%;
+
+}
+
+}
+
+@media screen and (min-width: 498px) and (max-width: 542px) {
+    #loadMore{
+     text-align: center;
+     margin: 0 auto;
+     width: 40%;
+
+}
+
+}
+
+@media screen and (min-width: 446px) and (max-width: 497px) {
+    #loadMore{
+     text-align: center;
+     margin: 0 auto;
+     width: 45%;
+     /* margin-left: 28%; */
+
+}
+
+}
+@media screen and (min-width: 375px) and (max-width: 444px) {
+    #loadMore{
+     text-align: center;
+     margin: 0 auto;
+     width: 90%;
+     margin-left: 25%;
+}
+
+}
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    #loadMore{
+     text-align: center;
+     margin: 0 auto;
+     width: 100%;
+     margin-left: 0%;
+}
+#loadMore p{
+    width: 100%;
+}
+}

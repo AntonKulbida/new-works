@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>eko-bud4</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main2.css">
+        <link rel="stylesheet" href="css/main3.css">
+        <link rel="stylesheet" href="css/main4.css">
+        <link rel="stylesheet" href="css/sprites.css">
+        <link rel="stylesheet" href="css/modal.css">
+        <link rel="stylesheet" href="css/show-more-services.css">
+
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+        <script src="js/menu.js" type="text/javascript"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script src="js/show-more-services.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+</head>
+<body>
+     <header class="top-header-block">
+        <div class="header-block">
+            <div class="logo-block">
+                <img src="img/logo.png" alt="Logo">
+            </div>
+            <div class="phone-block">
+                <ul>
+                    <li>(050) 123 45 67,</li>
+                    <li>(096) 123 45 67</li>
+                </ul>
+                <p>понедельник-пятница с 9:00 до 18:00</p>
+            </div>
+            <div class="btn-block">
+                <button id="myBtn">Отправить заявку</button>
+                <br>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Заполните необходимые поля</p><br>
+                    <form method="post" action="#">
+
+                            <div class="name-modal">
+                                <label for="text">
+                                    <input type="text" name="name" placeholder="Ваше Имя">
+                                </label>
+                            </div><br>
+                            <div class="mail-modal">
+                            
+                                <label for="email-field">
+                                    <input type="email" name="email" id="email-field" placeholder="Email">
+                                </label>
+                            </div><br>
+                            <div class="phone-modal">
+                            
+                                <label for="phonenum">
+                                    <input type="tel" name="tel" id="phone-field" pattern="8[0-9]{3}[0-9]{7}" placeholder="Tелефон">
+                                </label>
+                            </div><br>
+
+                            <div class="text-area-modal">
+                                <label for="area">
+                                    <textarea name="text" id="area" cols="22" rows="5" placeholder="Сообщение"></textarea>
+                                </label>
+                            </div><br>
+
+                            <div class="submit">
+                                <label>
+                                    <input type="submit" value="ОТПРАВИТЬ ЗАЯВКУ" name="enter">
+                                </label>
+                            </div>
+                            <br>
+                    </form>
+                  </div>
+
+                </div>
+                <button>Обратный звонок</button>
+            </div>
+            <p style="clear: both;"></p>
+        </div>
+    </header>
+<main class="main-middle-block">
+            <div class="blue-block">
+            <div class="blue">
+                <div class="mainWrap">
+                    <a id="touch-menu" class="mobile-menu" href="#"><i class="icon-reorder"></i>МЕНЮ</a>
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="index.html"><i class="icon-home"></i>Главная</a></li>
+                            <li><a href="#"><i class="icon-user"></i>О нас</a></li>
+                            <li><a href="index2.html"><i class="icon-camera"></i>Товары</a></li>
+                            <li><a href="index4.html"><i class="icon-bullhorn"></i>Услуги</a></li>
+                            <li><a href="#"><i class="icon-envelope-alt"></i>Статьи</a></li>
+                            <li><a href="#"><i class="icon-envelope-alt"></i>Галерея</a></li>
+                            <li><a href="#"><i class="icon-envelope-alt"></i>Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+<section class="middle-section">
+         <section class="main-cat-block">
+            <div class="main-cat">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">/ Услуги</a></li>
+                </ul>
+            </div>            
+        </section>
+
+        <section class="services-block">
+            <h2>Услуги</h2>
+                <hr>
+            <div class="services1">
+                    <ul id="myList2">
+                        <li>
+                            <div class="services">
+                                <img src="img/bereg.png" alt="">
+                                <div class="services-order">
+                                <a href="#">Подробнее</a>
+                                <a href="#">Заказать</a>
+                                </div>
+                                <h3>Укрепление берега</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="services">
+                                <img src="img/bereg2.png" alt="">
+                                <div class="services-order">
+                                <a href="#">Подробнее</a>
+                                <a href="#">Заказать</a>
+                                </div>
+                                <h3>Намыв песка</h3>
+                            </div>
+                        </li>
+                        <li>
+                             <div class="services">
+                                <img src="img/bereg3.png" alt="">
+                                <div class="services-order">
+                                <a href="#">Подробнее</a>
+                                <a href="#">Заказать</a>
+                                </div>
+                                <h3>Очистка водоема</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="services">
+                                <img src="img/bereg4.png" alt="">
+                                <div class="services-order">
+                                <a href="#">Подробнее</a>
+                                <a href="#">Заказать</a>
+                                </div>
+                                <h3>Укрепление склонов</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="services">
+                                <img src="img/bereg5.png" alt="">
+                                <div class="services-order">
+                                <a href="#">Подробнее</a>
+                                <a href="#">Заказать</a>
+                                </div>
+                                <h3>Уничтожение камыша</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="services">
+                                <img src="img/bereg6.png" alt="">
+                                <div class="services-order">
+                                <a href="#">Подробнее</a>
+                                <a href="#">Заказать</a>
+                                </div>
+                                <h3>Углубление водоемов</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="services">
+                                <img src="img/bereg2.png" alt="">
+                                <div class="services-order">
+                                <a href="#">Подробнее</a>
+                                <a href="#">Заказать</a>
+                                </div>
+                                <h3>Укрепление берега</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="services">
+                                <img src="img/bereg5.png" alt="">
+                                <div class="services-order">
+                                <a href="#">Подробнее</a>
+                                <a href="#">Заказать</a>
+                                </div>
+                                <h3>Укрепление берега</h3>
+                            </div>
+                        </li>
+                        <li>
+                             <div class="services">
+                                <img src="img/bereg4.png" alt="">
+                                <div class="services-order">
+                                <a href="#">Подробнее</a>
+                                <a href="#">Заказать</a>
+                                </div>
+                            <h3>Укрепление берега</h3>
+                            </div>
+                        </li>
+                <p style="clear: both;"></p>
+                    </ul>
+                    <div id="loadMore2"><p>показать еще</p></div>
+                    <!-- <div id="showLess">Show less</div> -->
+            </div>
+        </section>
+</section>
+
+    <footer class="footer-block">
+            <div class="footer">
+                <div class="logo-footer">
+                    <img src="img/logo-footer.png" alt="Logo">
+                    <p>Команда профессионалов с большим опытом.</p>
+                </div>
+                <div class="navigation">
+                    <h4>НАВИГАЦИЯ</h4>
+                    <hr>
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Оборудование</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Галерея</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                    <div class="soc-seti">
+                        <hr>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-2x fa-vk" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-2x fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-2x fa-youtube-square" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-2x fa-odnoklassniki" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="news">
+                    <h4>НОВОСТИ И СТАТЬИ</h4>
+                    <hr>
+                    <div class="date">
+                        <h4>10</h4>
+                        <p>янв</p>
+                    </div>
+                    <div class="info">
+                        <h5>Строительство подпорны стен</h5>
+                        <p>Наша команда состоит из профессионалов с большим опытом, которые своими силами...</p>
+                    </div>
+                    <div class="date">
+                        <h4>04</h4>
+                        <p>янв</p>
+                    </div>
+                    <div class="info">
+                        <h5>Акция: “Проект за 10 000 – в подарок”</h5>
+                        <p>Наша команда состоит из профессионалов с большим опытом, которые своими силами...</p>
+                    </div>
+                    <div class="date">
+                        <h4>28</h4>
+                        <p>дек</p>
+                    </div>
+                    <div class="info">
+                        <h5>Очистка водоема</h5>
+                        <p>Наша команда состоит из профессионалов с большим опытом, которые своими силами...</p>
+                    </div>
+                    <h6><a href="#">читать все</a></h6>
+                </div>
+                <p style="clear: both;"></p>
+            </div>
+        </footer>
+        <div class="company">
+            <p>Copyright ISV7.COM. Розработка и реализация сайта.</p>
+        </div>
+</main>
+
+<script>
+    // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+<script>
+    // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn1");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
